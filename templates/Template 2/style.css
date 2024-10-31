@@ -1,0 +1,155 @@
+@page {
+	margin-top: 1cm;
+	margin-bottom: 3cm;
+	margin-left: 2cm;
+	margin-right: 2cm;
+}
+body {
+	background: #fff;
+	color: #000;
+	margin: 0cm;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	line-height: 100%;
+}
+h1, h2, h3, h4 {
+	font-weight: bold;
+	margin: 0;
+}
+h1 {
+	font-size: 16pt;
+	margin: 5mm 0;
+}
+h2 {
+	font-size: 14pt;
+}
+h3, h4 {
+	font-size: 9pt;
+}
+ol, ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+li, ul {
+	margin-bottom: 0.8em;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+p + p {
+	margin-top: 1.30em;
+}
+a { 
+	border-bottom: 1px solid;
+	text-decoration: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	page-break-inside: always;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+th, td {
+	vertical-align: top;
+	text-align: left;
+}
+table.container {
+	width:100%;
+	border: 0;
+}
+.ocpsw_shop_title, .ocpsw_page_label {
+	text-transform: uppercase;
+}
+.ocpsw_page_label {
+	margin-top: 8pt;
+}
+.ocpsw_shop_addr p {
+	line-height: 14pt;
+	margin-top: 8pt;
+}
+.ocpsw_shop_title {
+	margin-bottom: 0;
+}
+td.ocpsw_order_data table, .ocpsw_totals {
+	width: 100%;
+}
+td.ocpsw_order_data table th, .ocpsw_totals tfoot th {
+	font-weight: normal;
+	padding-right: 2mm;
+	width: 50%;
+}
+table.ocpsw_address_data {
+    margin-top: 20pt;
+}
+.ocpsw_billing_address, .ocpsw_shipping_address, .ocpsw_order_data table tr {
+	line-height: 14pt;
+	font-size: 10pt;
+}
+table.ocpsw_order_details {
+	margin-top: 25pt;
+}
+table.ocpsw_order_details thead tr th, table.ocpsw_order_details tbody tr td {
+    padding: 7pt;
+}
+
+.ocpsw_admin_notice, .ocpsw_customer_notice {
+	margin-top: 20pt;
+	margin-bottom: 20pt;
+	line-height: 14pt;
+} 
+.ocpsw_totals {
+	margin-top: 20pt;
+}
+.ocpsw_admin_notice h3, .ocpsw_customer_notice h3, .ocpsw_totals_head, .ocpsw_totals_price {
+	font-size: 10pt;
+	line-height: 14pt;
+}
+.ocpsw_totals_head h3, .ocpsw_totals_price h3 {
+	font-size: 10pt;
+}
+.ocpsw_totals th, .ocpsw_totals td {
+	border-bottom: 2pt solid #000;
+	padding: 4pt 0; 
+}
+.ocpsw_totals tr:last-child th, .ocpsw_totals tr:last-child td {
+	border-bottom: none;
+}
+.ocpsw_admin_notice h3, .ocpsw_customer_notice h3 {
+	padding: 4pt 0;
+}
+#ocpsw_footer {
+	position: absolute;
+	bottom: -2cm;
+	left: 0;
+	right: 0;
+	height: 2cm;
+	text-align: center;
+	border-top: 0.1mm solid #ccc;
+	margin-bottom: 0;
+	padding-top: 6mm;
+}
+table.ocpsw_order_details tbody tr {
+	border-bottom: 0.1mm solid #ccc;
+}
+.ocpsw_price {
+	width: 15%;
+}
+.ocpsw_meta {
+	margin: 5px 0;
+}
+.ocpsw_meta dt, .ocpsw_meta dd, .ocpsw_meta dd p {
+	display: inline;
+	font-size: 7pt;
+	line-height: 7pt;
+}
+.ocpsw_meta dd {
+	margin-left: 0;
+}
+.ocpsw_meta dd:after {
+	content: "\A";
+	white-space: pre;
+}
